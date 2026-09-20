@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/vehicle/:rc", "destination": "/api?rc=:rc" },
+    { "source": "/api/vehicle",     "destination": "/api" },
+    { "source": "/",                "destination": "/api" }
+  ]
+}
