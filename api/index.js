@@ -15,9 +15,9 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(name)
 
 # ==================== BRAND ====================
-OWNER     = "@FizzaGirl"
-DEVELOPER = "@FizzaGirl"
-CHANNEL   = "@BUILDAPIS"
+OWNER     = "@bhnstock"
+DEVELOPER = "bhnstock"
+CHANNEL   = "bhnstockmarket"
 
 def brand_block():
     return {
