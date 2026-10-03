@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "regions": ["bom1"],
   "rewrites": [
     { "source": "/api/vehicle/:rc", "destination": "/api?rc=:rc" },
     { "source": "/api/vehicle",     "destination": "/api" },
